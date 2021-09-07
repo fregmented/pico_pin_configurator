@@ -1,0 +1,8 @@
+{
+  "nav.table": "Table",
+  "nav.rp2040": "MCU",
+  "nav.pico": "PICO",
+  "appbar.title.tableview": "Table view",
+  "appbar.title.rp2040": "RP2040 detailed view",
+  "appbar.title.pico": "PICO board detailed view"
+}

@@ -1,0 +1,1194 @@
+[
+  {
+    "pin": 1,
+    "static": "IOVDD",
+    "description": "Power supply for digital GPIOs, nominal voltage 1.8 V to 3.3 V",
+    "available_functions": []
+  },
+  {
+    "pin": 2,
+    "gpio": 0,
+    "spi": {
+      "dev": 0,
+      "func": "RX"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "TX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 0,
+      "channel": "A"
+    },
+    "usb": "OVCUR DET",
+    "pico_pin": 1,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 3,
+    "gpio": 1,
+    "spi": {
+      "dev": 0,
+      "func": "CSn"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "RX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 0,
+      "channel": "B"
+    },
+    "usb": "VBUS DET",
+    "pico_pin": 2,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 4,
+    "gpio": 2,
+    "spi": {
+      "dev": 0,
+      "func": "SCK"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "CTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 1,
+      "channel": "A"
+    },
+    "usb": "VBUS EN",
+    "pico_pin": 4,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 5,
+    "gpio": 3,
+    "spi": {
+      "dev": 0,
+      "func": "TX"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "RTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 1,
+      "channel": "B"
+    },
+    "usb": "OVCUR DET",
+    "pico_pin": 5,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 6,
+    "gpio": 4,
+    "spi": {
+      "dev": 0,
+      "func": "RX"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "TX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 2,
+      "channel": "A"
+    },
+    "usb": "VBUS DET",
+    "pico_pin": 6,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 7,
+    "gpio": 5,
+    "spi": {
+      "dev": 0,
+      "func": "CSn"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "RX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 2,
+      "channel": "B"
+    },
+    "usb": "VBUS EN",
+    "pico_pin": 7,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 8,
+    "gpio": 6,
+    "spi": {
+      "dev": 0,
+      "func": "SCK"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "CTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 3,
+      "channel": "A"
+    },
+    "usb": "OVCUR DET",
+    "pico_pin": 9,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 9,
+    "gpio": 7,
+    "spi": {
+      "dev": 0,
+      "func": "TX"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "RTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 3,
+      "channel": "B"
+    },
+    "usb": "VBUS DET",
+    "pico_pin": 10,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 10,
+    "static": "IOVDD",
+    "description": "Power supply for digital GPIOs, nominal voltage 1.8 V to 3.3 V",
+    "available_functions": []
+  },
+  {
+    "pin": 11,
+    "gpio": 8,
+    "spi": {
+      "dev": 1,
+      "func": "RX"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "TX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 4,
+      "channel": "A"
+    },
+    "usb": "VBUS EN",
+    "pico_pin": 11,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 12,
+    "gpio": 9,
+    "spi": {
+      "dev": 1,
+      "func": "CSn"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "RX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 4,
+      "channel": "B"
+    },
+    "usb": "OVCUR DET",
+    "pico_pin": 12,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 13,
+    "gpio": 10,
+    "spi": {
+      "dev": 1,
+      "func": "SCK"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "CTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 5,
+      "channel": "A"
+    },
+    "usb": "VBUS DET",
+    "pico_pin": 14,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 14,
+    "gpio": 11,
+    "spi": {
+      "dev": 1,
+      "func": "TX"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "RTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 5,
+      "channel": "B"
+    },
+    "usb": "VBUS EN",
+    "pico_pin": 15,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 15,
+    "gpio": 12,
+    "spi": {
+      "dev": 1,
+      "func": "RX"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "TX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 6,
+      "channel": "A"
+    },
+    "usb": "OVCUR DET",
+    "pico_pin": 16,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 16,
+    "gpio": 13,
+    "spi": {
+      "dev": 1,
+      "func": "CSn"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "RX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 6,
+      "channel": "B"
+    },
+    "usb": "VBUS DET",
+    "pico_pin": 17,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 17,
+    "gpio": 14,
+    "spi": {
+      "dev": 1,
+      "func": "SCK"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "CTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 7,
+      "channel": "A"
+    },
+    "usb": "VBUS EN",
+    "pico_pin": 19,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 18,
+    "gpio": 15,
+    "spi": {
+      "dev": 1,
+      "func": "TX"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "RTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 7,
+      "channel": "B"
+    },
+    "usb": "OVCUR DET",
+    "pico_pin": 20,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 19,
+    "static": "TESTEN",
+    "description": "\"Factory test mode pin. Tie to GND.\"",
+    "available_functions": []
+  },
+  {
+    "pin": 20,
+    "static": "XIN",
+    "description": "Connect a crystal to RP2040\u2019s crystal oscillator. XIN can also be used as a single,ended CMOS clock input, with XOUT disconnected. The USB bootloader requires a 12 MHz crystal or 12 MHz clock input",
+    "available_functions": []
+  },
+  {
+    "pin": 21,
+    "static": "XOUT",
+    "description": "Connect a crystal to RP2040\u2019s crystal oscillator. XIN can also be used as a single,ended CMOS clock input, with XOUT disconnected. The USB bootloader requires a 12 MHz crystal or 12 MHz clock input",
+    "available_functions": []
+  },
+  {
+    "pin": 22,
+    "static": "IOVDD",
+    "description": "Power supply for digital GPIOs, nominal voltage 1.8 V to 3.3 V",
+    "available_functions": []
+  },
+  {
+    "pin": 23,
+    "static": "DVDD",
+    "description": "Digital core power supply, nominal voltage 1.1 V. Can be connected to VREG_VOUT, or to someother board,level power supply.",
+    "available_functions": []
+  },
+  {
+    "pin": 24,
+    "static": "SWCLK",
+    "description": "\"Serial Wire Debug Clock\"",
+    "available_functions": []
+  },
+  {
+    "pin": 25,
+    "static": "SWDIO",
+    "description": "\"Serial Wire Debug Data\"",
+    "available_functions": []
+  },
+  {
+    "pin": 26,
+    "static": "RUN",
+    "description": "Reset. Active LOW. If no external reset is required, this pin can be tied directly to IOVDD.",
+    "available_functions": []
+  },
+  {
+    "pin": 27,
+    "gpio": 16,
+    "spi": {
+      "dev": 0,
+      "func": "RX"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "TX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 0,
+      "channel": "A"
+    },
+    "usb": "VBUS DET",
+    "pico_pin": 21,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 28,
+    "gpio": 17,
+    "spi": {
+      "dev": 0,
+      "func": "CSn"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "RX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 0,
+      "channel": "B"
+    },
+    "usb": "VBUS EN",
+    "pico_pin": 22,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 29,
+    "gpio": 18,
+    "spi": {
+      "dev": 0,
+      "func": "SCK"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "CTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 1,
+      "channel": "A"
+    },
+    "usb": "OVCUR DET",
+    "pico_pin": 23,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 30,
+    "gpio": 19,
+    "spi": {
+      "dev": 0,
+      "func": "TX"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "RTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 1,
+      "channel": "B"
+    },
+    "usb": "VBUS DET",
+    "pico_pin": 25,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 31,
+    "gpio": 20,
+    "spi": {
+      "dev": 0,
+      "func": "RX"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "TX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 2,
+      "channel": "A"
+    },
+    "clock": "CLOCK GPIN0",
+    "usb": "VBUS EN",
+    "pico_pin": 26,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "clock",
+      "usb"
+    ]
+  },
+  {
+    "pin": 32,
+    "gpio": 21,
+    "spi": {
+      "dev": 0,
+      "func": "CSn"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "RX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 2,
+      "channel": "B"
+    },
+    "clock": "CLOCK GPOUT0",
+    "usb": "OVCUR DET",
+    "pico_pin": 27,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "clock",
+      "usb"
+    ]
+  },
+  {
+    "pin": 33,
+    "static": "IOVDD",
+    "description": "Power supply for digital GPIOs, nominal voltage 1.8 V to 3.3 V",
+    "available_functions": []
+  },
+  {
+    "pin": 34,
+    "gpio": 22,
+    "spi": {
+      "dev": 0,
+      "func": "SCK"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "CTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 3,
+      "channel": "A"
+    },
+    "clock": "CLOCK GPIN1",
+    "usb": "VBUS DET",
+    "pico_pin": 29,
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "clock",
+      "usb"
+    ]
+  },
+  {
+    "pin": 35,
+    "gpio": 23,
+    "spi": {
+      "dev": 0,
+      "func": "TX"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "RTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 3,
+      "channel": "B"
+    },
+    "clock": "CLOCK GPOUT1",
+    "usb": "VBUS EN",
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "clock",
+      "usb"
+    ]
+  },
+  {
+    "pin": 36,
+    "gpio": 24,
+    "spi": {
+      "dev": 1,
+      "func": "RX"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "TX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 4,
+      "channel": "A"
+    },
+    "clock": "CLOCK GPOUT2",
+    "usb": "OVCUR DET",
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "clock",
+      "usb"
+    ]
+  },
+  {
+    "pin": 37,
+    "gpio": 25,
+    "spi": {
+      "dev": 1,
+      "func": "CSn"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "RX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 4,
+      "channel": "B"
+    },
+    "clock": "CLOCK GPOUT3",
+    "usb": "VBUS DET",
+    "description": "General,purpose digital input and output. RP2040 can connect one of a number of internal peripherals to each GPIO, or control GPIOs directly from software.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "sio",
+      "pio0",
+      "pio1",
+      "clock",
+      "usb"
+    ]
+  },
+  {
+    "pin": 38,
+    "gpio": 26,
+    "spi": {
+      "dev": 1,
+      "func": "SCK"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "CTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 5,
+      "channel": "A"
+    },
+    "adc": 0,
+    "usb": "VBUS EN",
+    "pico_pin": 31,
+    "description": "General,purpose digital input and output, with analogue,to,digital converter function. The RP2040 ADC has an analogue multiplexer which can select any one of these pins, and sample the voltage.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "adc",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 39,
+    "gpio": 27,
+    "spi": {
+      "dev": 1,
+      "func": "TX"
+    },
+    "uart": {
+      "dev": 1,
+      "func": "RTS"
+    },
+    "i2c": {
+      "dev": 1,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 5,
+      "channel": "B"
+    },
+    "adc": 1,
+    "usb": "OVCUR DET",
+    "pico_pin": 32,
+    "description": "General,purpose digital input and output, with analogue,to,digital converter function. The RP2040 ADC has an analogue multiplexer which can select any one of these pins, and sample the voltage.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "adc",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 40,
+    "gpio": 28,
+    "spi": {
+      "dev": 1,
+      "func": "RX"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "TX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SDA"
+    },
+    "pwm": {
+      "dev": 6,
+      "channel": "A"
+    },
+    "adc": 2,
+    "usb": "VBUS DET",
+    "pico_pin": 34,
+    "description": "General,purpose digital input and output, with analogue,to,digital converter function. The RP2040 ADC has an analogue multiplexer which can select any one of these pins, and sample the voltage.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "adc",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 41,
+    "gpio": 29,
+    "spi": {
+      "dev": 1,
+      "func": "CSn"
+    },
+    "uart": {
+      "dev": 0,
+      "func": "RX"
+    },
+    "i2c": {
+      "dev": 0,
+      "func": "SCL"
+    },
+    "pwm": {
+      "dev": 6,
+      "channel": "B"
+    },
+    "adc": 3,
+    "usb": "VBUS EN",
+    "description": "General,purpose digital input and output, with analogue,to,digital converter function. The RP2040 ADC has an analogue multiplexer which can select any one of these pins, and sample the voltage.",
+    "available_functions": [
+      "gpio",
+      "spi",
+      "uart",
+      "i2c",
+      "pwm",
+      "adc",
+      "sio",
+      "pio0",
+      "pio1",
+      "usb"
+    ]
+  },
+  {
+    "pin": 42,
+    "static": "IOVDD",
+    "description": "Power supply for digital GPIOs, nominal voltage 1.8 V to 3.3 V",
+    "available_functions": []
+  },
+  {
+    "pin": 43,
+    "static": "ADC_AVDD",
+    "description": "Power supply for analogue,to,digital converter, nominal voltage 3.3 V",
+    "available_functions": []
+  },
+  {
+    "pin": 44,
+    "static": "VREG_VIN",
+    "description": "Power input for the internal core voltage regulator, nominal voltage 1.8 V to 3.3 V",
+    "available_functions": []
+  },
+  {
+    "pin": 45,
+    "static": "VREG_VOUT",
+    "description": "Power output for the internal core voltage regulator, nominal voltage 1.1 V, 100 mA max current",
+    "available_functions": []
+  },
+  {
+    "pin": 46,
+    "static": "USB_DM",
+    "description": "USB controller, supporting Full Speed device and Full/Low Speed host. A 27\u03a9 series termination resistor is required on each pin, but bus pullups and pulldowns are provided internally.",
+    "available_functions": []
+  },
+  {
+    "pin": 47,
+    "static": "USB_DP",
+    "description": "USB controller, supporting Full Speed device and Full/Low Speed host. A 27\u03a9 series termination resistor is required on each pin, but bus pullups and pulldowns are provided internally.",
+    "available_functions": []
+  },
+  {
+    "pin": 48,
+    "static": "USB_VDD",
+    "description": "Power supply for internal USB Full Speed PHY, nominal voltage 3.3 V",
+    "available_functions": []
+  },
+  {
+    "pin": 49,
+    "static": "IOVDD",
+    "description": "Power supply for digital GPIOs, nominal voltage 1.8 V to 3.3 V",
+    "available_functions": []
+  },
+  {
+    "pin": 50,
+    "static": "DVDD",
+    "description": "Digital core power supply, nominal voltage 1.1 V. Can be connected to VREG_VOUT, or to someother board,level power supply.",
+    "available_functions": []
+  },
+  {
+    "pin": 51,
+    "static": "QSPI_SD3",
+    "description": "Interface to a SPI, Dual,SPI or Quad,SPI flash device, with execute,in,place support. These pins can also be used as software,controlled GPIOs, if they are not required for flash access.",
+    "available_functions": []
+  },
+  {
+    "pin": 52,
+    "static": "QSPI_SCLK",
+    "description": "Interface to a SPI, Dual,SPI or Quad,SPI flash device, with execute,in,place support. These pins can also be used as software,controlled GPIOs, if they are not required for flash access.",
+    "available_functions": []
+  },
+  {
+    "pin": 53,
+    "static": "QSPI_SD0",
+    "description": "Interface to a SPI, Dual,SPI or Quad,SPI flash device, with execute,in,place support. These pins can also be used as software,controlled GPIOs, if they are not required for flash access.",
+    "available_functions": []
+  },
+  {
+    "pin": 54,
+    "static": "QSPI_SD2",
+    "description": "Interface to a SPI, Dual,SPI or Quad,SPI flash device, with execute,in,place support. These pins can also be used as software,controlled GPIOs, if they are not required for flash access.",
+    "available_functions": []
+  },
+  {
+    "pin": 55,
+    "static": "QSPI_SD1",
+    "description": "Interface to a SPI, Dual,SPI or Quad,SPI flash device, with execute,in,place support. These pins can also be used as software,controlled GPIOs, if they are not required for flash access.",
+    "available_functions": []
+  },
+  {
+    "pin": 56,
+    "static": "QSPI_SS_N",
+    "description": "Interface to a SPI, Dual,SPI or Quad,SPI flash device, with execute,in,place support. These pins can also be used as software,controlled GPIOs, if they are not required for flash access.",
+    "available_functions": []
+  }
+]
